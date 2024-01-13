@@ -1,0 +1,19 @@
+.calculator-box {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  /* border: 2px solid yellow; */
+  max-width: 400px;
+  min-height: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  padding: 2px;
+  margin: 4px;
+  box-shadow:
+    0 0 20px rgba(255, 0, 0, 0.5), /* Red shadow at top */
+    10px 0 40px rgba(0, 0, 255, 0.2), /* Blue shadow at right */
+    0 10px 20px rgba(0, 0, 255, 0.2), /* Blue shadow at bottom */
+    -10px 0 40px rgba(255, 0, 0, 0.5);
+  margin: 4px;
+}
